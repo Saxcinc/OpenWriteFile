@@ -40,5 +40,4 @@ def get_shop_list_by_dishes(ingredients, person_count):
     return count_dict
 
 
-# print(parse_file("recipes.txt"))
 print(get_shop_list_by_dishes(['Запеченный картофель', 'Фахитос'], 2))
